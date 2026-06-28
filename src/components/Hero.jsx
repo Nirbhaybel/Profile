@@ -1,3 +1,5 @@
+import { useState } from "react";
+import ResumeModal from "./ResumeModal";
 import { motion } from "framer-motion";
 import {
   FaDownload,
@@ -33,6 +35,8 @@ const stats = [
 ];
 
 export default function Hero() {
+
+     const [showResume, setShowResume] = useState(false);
   return (
     <section className="relative min-h-screen bg-[#07111F] overflow-hidden flex items-center">
 
@@ -96,13 +100,12 @@ FPGA • RFSoC • Mixed Signal Hardware
 
         <div className="flex flex-wrap gap-5 mt-12">
 
-          <a
-  href={`${import.meta.env.BASE_URL}resume.pdf`}
-  download
-  className="px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black rounded-lg font-semibold transition-all duration-300"
+<button
+    onClick={() => setShowResume(true)}
+    className="px-8 py-4 bg-cyan-500 hover:bg-cyan-400 rounded-xl font-bold text-black transition-all duration-300"
 >
-  Download Resume
-</a>
+    Download Resume
+</button>
 
           <a
             href="#projects"
@@ -147,12 +150,16 @@ FPGA • RFSoC • Mixed Signal Hardware
 
       {/* Right Side Radar */}
 
-      <div className="hidden lg:flex absolute right-0 top-0 w-1/2 h-full items-center justify-center">
-
+            <div className="hidden lg:flex absolute right-0 top-0 w-1/2 h-full items-center justify-center">
 
         <RadarCanvas/>
 
       </div>
+
+      <ResumeModal
+        open={showResume}
+        onClose={() => setShowResume(false)}
+      />
 
     </section>
   );
