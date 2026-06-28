@@ -46,10 +46,14 @@ Nirbhay Singh
 
 </a>
 
-<a href="/resume.pdf">
-
-<FaDownload size={20}/>
-
+<a
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  download="Nirbhay_Singh_Resume.pdf"
+  target="_self"
+  className="text-cyan-400 hover:text-cyan-300 transition"
+  title="Download Resume"
+>
+  <FaDownload size={20} />
 </a>
 
 </div>
