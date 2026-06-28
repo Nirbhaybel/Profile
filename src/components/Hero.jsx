@@ -97,12 +97,12 @@ FPGA • RFSoC • Mixed Signal Hardware
         <div className="flex flex-wrap gap-5 mt-12">
 
           <a
-            href="/resume.pdf"
-            className="bg-cyan-500 hover:bg-cyan-400 px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition"
-          >
-            <FaDownload />
-            Download Resume
-          </a>
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  download
+  className="px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black rounded-lg font-semibold transition-all duration-300"
+>
+  Download Resume
+</a>
 
           <a
             href="#projects"
