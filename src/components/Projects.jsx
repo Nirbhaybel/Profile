@@ -27,11 +27,14 @@ const projects = [
   }
 ];
 
-export default function Projects(){
+export default function Projects() {
 
-return(
+    return (
 
-<section id="projects" className="py-28 bg-[#08121F]">
+        <section
+            id="projects"
+            className="py-20 bg-slate-900"
+        >
 
 <div className="max-w-7xl mx-auto px-8">
 

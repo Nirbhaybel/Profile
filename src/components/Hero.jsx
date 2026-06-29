@@ -38,7 +38,7 @@ export default function Hero() {
 
      const [showResume, setShowResume] = useState(false);
   return (
-    <section className="relative min-h-screen bg-[#07111F] overflow-hidden flex flex-col lg:flex-row items-center">
+    <section   id="about" className="relative min-h-screen bg-[#07111F] overflow-hidden flex flex-col lg:flex-row items-center">
       {/* Left Side */}
       <div className="relative z-20 w-full lg:w-1/2 px-6 sm:px-10 lg:px-20 pt-24 lg:pt-20 pb-14">
         <motion.p

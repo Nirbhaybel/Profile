@@ -9,7 +9,7 @@ import Patents from "./components/Patents";
 import Awards from "./components/Awards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import RadarLab from "./components/RadarLab";
 export default function App() {
 
   return (
@@ -17,12 +17,14 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      
       <Experience />
       <Projects />
       <Skills />
       <Publications />
       <Patents />
       <Awards />
+      <RadarLab />
       <Contact />
       <Footer />
     </>

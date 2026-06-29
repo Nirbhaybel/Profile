@@ -5,10 +5,9 @@ export default function Contact(){
 return(
 
 <section
-
-id="contact"
-
-className="py-28 bg-[#07111F]">
+    id="contact"
+    className="py-20"
+>
 
 <div className="max-w-5xl mx-auto text-center px-8">
 
