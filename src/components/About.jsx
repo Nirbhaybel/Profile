@@ -30,21 +30,24 @@ export default function About() {
           transition={{delay:.3}}
           className="text-gray-300 mt-8 leading-8 text-lg max-w-5xl"
         >
-          Principal FPGA and AESA Radar Systems Engineer with 11 years of experience in
+         <p> Principal FPGA and AESA Radar Systems Engineer with 11 years of experience in
 the architecture, design, integration, and deployment of mission-critical defence
 radar systems. Expertise spans digital system architecture, FPGA development, RF
 and microwave engineering, mixed-signal hardware, and real-time radar signal processing. Proven track record of delivering complex defence programs by translating
 operational requirements into scalable, high-performance hardware and FPGA solutions while ensuring system reliability, maintainability, and production readiness.
-Led the development of large-scale 160 × 16 coherent-channel AESA radar systems using direct RF sampling architectures, deterministic JESD204B/C synchronization, adaptive digital beamforming, and high-speed FPGA processing. Proven
+</p>
+
+<p>Led the development of large-scale 160 × 16 coherent-channel AESA radar systems using direct RF sampling architectures, deterministic JESD204B/C synchronization, adaptive digital beamforming, and high-speed FPGA processing. Proven
 ability to translate complex system requirements into scalable hardware and FPGA
 architectures while leading multidisciplinary engineering teams from concept through
 production, system integration, customer acceptance, qualification testing, and
-field deployment.
-Specialized in FPGA architecture, RFSoC platforms, radar waveform generation,
+field deployment.</p>
+<br/>
+<p>Specialized in FPGA architecture, RFSoC platforms, radar waveform generation,
 high-speed digital interfaces, RF front-end design, and AI/ML-based radar target
 detection and classification. Experienced in technical leadership, architecture reviews, customer engagement, engineering mentoring, risk management, technical
 decision-making, and cross-functional program execution. Passionate about developing next-generation radar technologies through innovation, system optimization,
-and continuous improvement across the complete product development lifecycle.
+and continuous improvement across the complete product development lifecycle.</p>
         </motion.p>
 
         <div className="grid md:grid-cols-4 gap-8 mt-20">
